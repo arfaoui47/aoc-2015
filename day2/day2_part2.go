@@ -36,14 +36,14 @@ func main() {
 func min_2(a int, b int, c int) (int, int) {
 	if a <= b {
 		if b <= c {
-			return a , b
-		}else{
+			return a, b
+		} else {
 			return a, c
 		}
-	}else{
-		if a <= c{
+	} else {
+		if a <= c {
 			return a, b
-		}else{
+		} else {
 			return b, c
 		}
 	}
